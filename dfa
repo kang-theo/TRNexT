@@ -1,0 +1,279 @@
+[33mcommit 0518d6881c719e7d586f6d8c13212870a32e5687[m
+Author: uruir <445767568@qq.com>
+Date:   Wed Aug 19 21:40:42 2015 +0800
+
+    忽略备份文件
+
+[33mcommit 8449c81aa47ac29c265e62589b37c530213a2903[m
+Author: uruir <445767568@qq.com>
+Date:   Wed Aug 19 21:35:39 2015 +0800
+
+    对博客框架hexo的NexT主题初步修改
+
+[33mcommit 74fe43abb2ba7b2c4e4e58fbe267e9c37993c2e9[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Fri Aug 7 10:31:08 2015 +0800
+
+    Theme configurations using Hexo data files. #328
+
+[33mcommit adadebcf398cfb5d1ac8f504dca48552a10012cb[m
+Merge: 87b5f14 7ccd657
+Author: iissnan <iissnan@gmail.com>
+Date:   Thu Aug 6 14:41:49 2015 +0800
+
+    Merge branch 'master' into dev
+
+[33mcommit 7ccd657385e22897de6e186d5de123aaf197aeb6[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Wed Aug 5 13:08:49 2015 +0800
+
+    Bug: Year element of archives disappears. #326
+
+[33mcommit cee2eb2e4dd17724d8eabcea99fd7dde234c4adc[m
+Author: Vi <iissnan@gmail.com>
+Date:   Wed Aug 5 02:53:58 2015 +0800
+
+    DOC:  update README
+
+[33mcommit 88675450d3cc4e31b2df51f2cbd3056e7440778c[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Wed Aug 5 02:16:27 2015 +0800
+
+    DOC: add documentation site. http://theme-next.iissnan.com
+
+[33mcommit 6c11ba8279ae4bea1d2f9b845a447e66f7d5bff9[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Wed Aug 5 00:39:47 2015 +0800
+
+    Bug: Should not show search icon when swiftype key is not set. #314
+
+[33mcommit a57b4cebcf50d6f5511f3c4fad107bc73d46132a[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Wed Aug 5 00:26:25 2015 +0800
+
+    Bug: Incorrect style for code blocks. #313
+
+[33mcommit 88a464db9627fee68b345a940c2728383d24b012[m
+Merge: 31ca2ce 711a1f7
+Author: Vi <iissnan@gmail.com>
+Date:   Tue Aug 4 23:58:25 2015 +0800
+
+    Merge pull request #324 from paicha/master
+    
+    remove click delays on mobile browsers
+
+[33mcommit 711a1f79df164f3fa16c15548fd31f13b7b6e149[m
+Author: 赖嘉伟 <paicha.me@gmail.com>
+Date:   Tue Aug 4 23:54:23 2015 +0800
+
+    add fastclick through bower
+
+[33mcommit 19c793d0660add55ceb194bdd1913d7b0a179846[m
+Author: 赖嘉伟 <paicha.me@gmail.com>
+Date:   Tue Aug 4 18:40:49 2015 +0800
+
+    remove click delays on mobile browsers
+
+[33mcommit 13a62d42d10d15c687f3f63c7d2ae06ee2b33f47[m
+Author: 赖嘉伟 <paicha.me@gmail.com>
+Date:   Mon Aug 3 21:13:16 2015 +0800
+
+    JS: add script version
+
+[33mcommit 31ca2cec43dd34f4cd94b0f25c617745305504f0[m
+Merge: f65387f 221b07f
+Author: Vi <iissnan@gmail.com>
+Date:   Mon Aug 3 09:35:27 2015 +0800
+
+    Merge pull request #317 from paicha/master
+    
+    CSS: update paragraph style
+
+[33mcommit 221b07f861f59469a6a401f74d359748e094c0ae[m
+Author: 赖嘉伟 <paicha.me@gmail.com>
+Date:   Sun Aug 2 01:43:43 2015 +0800
+
+    恢复移动端的导航栏切换折叠
+
+[33mcommit 95755b6a099a2196812329322f594716b1c0e230[m
+Author: 赖嘉伟 <paicha.me@gmail.com>
+Date:   Sat Aug 1 22:00:22 2015 +0800
+
+    CSS: update paragraph style
+
+[33mcommit 87b5f14d1aee687bf7a497f705e350471b7aa604[m
+Merge: 4d121b3 e6b0ac5
+Author: iissnan <iissnan@gmail.com>
+Date:   Fri Jul 31 16:19:58 2015 +0800
+
+    Merge branch 'dev' of https://github.com/iissnan/hexo-theme-next into dev
+
+[33mcommit f65387fb656c442a9312ec1502352a812aca38a9[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Fri Jul 31 16:19:03 2015 +0800
+
+    Version: bump to 0.4.5.1
+
+[33mcommit 4d121b371588e50d5e8409f48c877549bf3de14e[m
+Merge: 5870808 5b52198
+Author: iissnan <iissnan@gmail.com>
+Date:   Fri Jul 31 16:16:14 2015 +0800
+
+    Merge branch 'master' into dev
+
+[33mcommit 5b521980a46b60e3ff9003e704e92bbd5b0dd3d9[m
+Merge: a228192 e96ee3d
+Author: Vi <iissnan@gmail.com>
+Date:   Fri Jul 31 02:14:39 2015 +0800
+
+    Merge pull request #310 from smilexiamo/master
+    
+    Bug:comments can not be display when admin_enable is false.#304
+
+[33mcommit e96ee3da562d29bb9b0e9373dc2aa6f08a001fb0[m
+Author: xiamo <wanghaokoko1994@gmail.com>
+Date:   Fri Jul 31 00:44:47 2015 +0800
+
+    Bug:comments can not be display when admin_enable is false.#304
+
+[33mcommit 5870808c6433d78eabe608e6602faf924eb00287[m
+Merge: 0c2be6c a228192
+Author: iissnan <iissnan@gmail.com>
+Date:   Tue Jul 28 10:56:32 2015 +0800
+
+    Merge remote-tracking branch 'origin' into dev
+
+[33mcommit a2281923406237a222f68fa2cc6d833164e44ffc[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Mon Jul 27 10:51:55 2015 +0800
+
+    Bug: Site overview tab can't be activated when disable motion. #212
+
+[33mcommit e6b0ac537c3116e9eb1e308b462815855cc5c299[m
+Merge: 0c2be6c 9db9b1a
+Author: Vi <iissnan@gmail.com>
+Date:   Tue Jul 21 09:17:55 2015 +0800
+
+    Merge pull request #294 from flashlab/dev
+    
+    remove redundant code
+
+[33mcommit 9db9b1ad27e567866865dfa545c0f10e31f6dfd3[m
+Author: zhengjuefei <zhengjuefei25@gmail.com>
+Date:   Mon Jul 20 00:07:25 2015 +0800
+
+    remove redundant code
+
+[33mcommit 0c2be6ca03b86afecb18c6802d7f44aea93f2cc4[m
+Merge: 247e88c 88630ca
+Author: iissnan <iissnan@gmail.com>
+Date:   Fri Jul 17 13:31:19 2015 +0800
+
+    Merge branch 'master' into dev
+
+[33mcommit 247e88c85e80a8bb4d67e9730357af0dd5d589cc[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Fri Jul 17 13:31:11 2015 +0800
+
+    Bug: fixed style bugs of tables
+
+[33mcommit b9eef72072d0f7c5a16ae99fae66de45a12d9715[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Fri Jul 17 11:28:07 2015 +0800
+
+    Refactor: update search design for default scheme
+
+[33mcommit 97f11c584cc5740c9e3c69dd6933af1b26d7233e[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Fri Jul 17 10:30:08 2015 +0800
+
+    Refactor: update icons
+
+[33mcommit 0969eca9de543f355a1088dc0ba0b08f41fd3a47[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Fri Jul 17 10:29:39 2015 +0800
+
+    Refactor: update seperator from // to | in pages title
+
+[33mcommit 88630ca9803e3e4bfb369d01bce4883931b1de48[m
+Merge: 4cefddc a81990a
+Author: Vi <iissnan@gmail.com>
+Date:   Fri Jul 17 00:07:59 2015 +0800
+
+    Merge pull request #286 from smilexiamo/master
+    
+    feature:make duoshuo show ua by hook
+
+[33mcommit a81990a758a43dd73dfcf1935267632145a60880[m
+Author: xiamo <wanghaokoko1994@gmail.com>
+Date:   Thu Jul 16 18:16:37 2015 +0800
+
+    feature:make duoshuo show ua by hook
+
+[33mcommit 7df64382a54d363094e84e1c3e786d9367f11435[m
+Author: xiamo <wanghaokoko1994@gmail.com>
+Date:   Thu Jul 16 18:09:27 2015 +0800
+
+    feature:make duoshuo show ua by hook
+
+[33mcommit 202f177c7874322c6fbd97d61798ef212dfd8e96[m
+Author: xiamo <wanghaokoko1994@gmail.com>
+Date:   Thu Jul 16 18:01:44 2015 +0800
+
+    feature:make duoshuo show ua by hook
+
+[33mcommit 6c990f6eef3e4cfb58d889b80e76561788e3ca9b[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Thu Jul 16 15:10:56 2015 +0800
+
+    DOC: update README.md
+
+[33mcommit a8ac6453289e8fad25d93c92daf7513ecfc7bf94[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Thu Jul 16 14:53:42 2015 +0800
+
+    CSS: update gallery styles. #282
+
+[33mcommit c9fff9cbf35abee5ac73730d7e7ca3de93879103[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Thu Jul 16 11:30:29 2015 +0800
+
+    CSS: update table styles
+
+[33mcommit 6a9352ff932c394e56a36b7030c4e431d7c830ea[m
+Author: xiamo <wanghaokoko1994@gmail.com>
+Date:   Wed Jul 15 23:45:04 2015 +0800
+
+    feature:make duoshuo show ua by hook
+
+[33mcommit 070fa45943e432cdeddc3d7ae7258559f436db91[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Tue Jul 14 16:53:16 2015 +0800
+
+    Feature: add built-in tags centerquote and fullimage
+
+[33mcommit 4cefddcfe3c12ba3a05f1f164a21bc451323c7ea[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Tue Jul 14 13:58:59 2015 +0800
+
+    Version: v0.4.4
+
+[33mcommit 8a9867e204283d517d3684031ed1ff42f0a66cba[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Tue Jul 14 10:35:22 2015 +0800
+
+    Bug: toc disappears after clicking on a toc item and toggling sidebar. #235, #261
+
+[33mcommit d02ad365cda41a8a604055f9721ca0d06a75e6af[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Tue Jul 14 09:49:25 2015 +0800
+
+    Bug: menu disappears when switch between mobile verstion and tablet/desktop version. #248
+
+[33mcommit a4e4f732079f79f0be75cbf64ba47aacbfd6ece8[m
+Author: iissnan <iissnan@gmail.com>
+Date:   Tue Jul 14 01:12:49 2015 +0800
+
+    Improvement: remove truncate filter as it requires Hexo 3.1.1
+    
+    - Ad
