@@ -94,7 +94,7 @@
 
       {% if is_index %}
         {% if post.description %}
-          <span itemprop="description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.description }}</span>
+          <span itemprop="description">&nbsp;&nbsp;&nbsp;&nbsp;{{ post.description }}</span>
           <div class="post-more-link text-center">
             <a class="btn" href="{{ url_for(post.path) }}">
               {{ __('post.read_more') }} &raquo;
@@ -119,10 +119,10 @@
             </a>
           </div>
         {% else %}
-          <span itemprop="articleBody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.content }}</span>
+          <span itemprop="articleBody">&nbsp;&nbsp;&nbsp;&nbsp;{{ post.content }}</span>
         {% endif %}
       {% else %}
-        <span itemprop="articleBody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.content }}</span>
+        <span itemprop="articleBody">&nbsp;&nbsp;&nbsp;&nbsp;{{ post.content }}</span>
       {% endif  %}
     </div>
 

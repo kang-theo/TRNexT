@@ -220,8 +220,8 @@ ul li { list-style: circle; }
 }
 
 .post-more-link {
-  margin-top: 18px;
-  text-align: right;
+  margin-top: 20px;
+  text-align: left;
 
   a {
     padding: 0;
