@@ -68,6 +68,23 @@
           </span>
           {% endif %}
         {% endif %}
+        
+        {% if is_home() %}
+		{% if post.description %}
+		    <a class="post-more-link text-center btn" href="{{ url_for(post.path) }}">
+		      {{ __('post.read_more') }} &raquo;
+		    </a>
+		{% elif post.excerpt  %}
+		  {{ post.excerpt }}
+		    <a class="post-more-link text-center btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#more{% endif %}" rel="contents">
+		      {{ __('post.read_more') }} &raquo;
+		    </a>
+		{% elif theme.auto_excerpt.enable %}
+		    <a class="post-more-link text-center btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#more{% endif %}" rel="contents">
+		      {{ __('post.read_more') }} &raquo;
+		    </a>
+		{% endif %}
+        {% endif %}
       </div>
     </header>
 
@@ -94,30 +111,15 @@
 
       {% if is_index %}
         {% if post.description %}
-          <span itemprop="description">&nbsp;&nbsp;&nbsp;&nbsp;{{ post.description }}</span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="{{ url_for(post.path) }}">
-              {{ __('post.read_more') }} &raquo;
-            </a>
-          </div>
+          <span itemprop="description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.description }}</span>
         {% elif post.excerpt  %}
           {{ post.excerpt }}
-          <div class="post-more-link text-center">
-            <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#more{% endif %}" rel="contents">
-              {{ __('post.read_more') }} &raquo;
-            </a>
-          </div>
         {% elif theme.auto_excerpt.enable %}
-          <span itemprop="articleBody">
+          <span itemprop="articleBody">&nbsp;&nbsp;&nbsp;&nbsp;
             {% set content = post.content | striptags %}
             {{ content.substring(0, theme.auto_excerpt.length) }}
             {% if content.length > theme.auto_excerpt.length %}...{% endif %}
           </span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#more{% endif %}" rel="contents">
-              {{ __('post.read_more') }} &raquo;
-            </a>
-          </div>
         {% else %}
           <span itemprop="articleBody">&nbsp;&nbsp;&nbsp;&nbsp;{{ post.content }}</span>
         {% endif %}
