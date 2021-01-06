@@ -56,14 +56,11 @@ social_icons:
   enable: true
   icons_only: false
   transition: false
-# Blog rolls
-links_icon: link
-links_title: Links
-links_layout: block
-#links_layout: inline
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
+# Automatically saving scroll position on each post/page in cookies.
+save_scroll: true
 
 
 # Automatically add list number to toc.
@@ -71,7 +68,7 @@ toc_list_number: true
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Use Lato font
